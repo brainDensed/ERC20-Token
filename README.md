@@ -69,7 +69,7 @@ npx hardhat ignition deploy ./ignition/modules/BonerToken.js --network sepolia
 
 ## Frontend
 
-The frontend for this project is available at: [boner-token-client](https://github.com/brainDensed/ERC20-Token-Client)
+The frontend for this project is available at: [ERC20-token-client](https://github.com/brainDensed/ERC20-Token-Client)
 
 ## Frontend Integration
 
