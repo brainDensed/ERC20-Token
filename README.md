@@ -1,6 +1,6 @@
-# BonerToken Hardhat Project
+# FoolishToken Hardhat Project
 
-This project contains the smart contract, tests, and deployment scripts for the BonerToken ERC20 token, built with Hardhat and OpenZeppelin.
+This project contains the smart contract, tests, and deployment scripts for the FoolishToken ERC20 token, built with Hardhat and OpenZeppelin.
 
 ## Features
 
