@@ -67,10 +67,15 @@ npx hardhat test
 npx hardhat ignition deploy ./ignition/modules/BonerToken.js --network sepolia
 ```
 
+## Frontend
+
+The frontend for this project is available at: [boner-token-client](https://github.com/brainDensed/ERC20-Token-Client)
+
 ## Frontend Integration
 
 - Copy the ABI from `artifacts/contracts/BonerToken.sol/BonerToken.json` to your frontend project.
 - Use the deployed contract address in your frontend.
+
 
 ## License
 
