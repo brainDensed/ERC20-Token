@@ -6,8 +6,8 @@ import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC2
 import {ERC20Pausable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract BonerToken is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
-    constructor(address initialOwner, uint initialSupply) ERC20("BonerToken", "BONER") Ownable(initialOwner) {
+contract FoolishToken is ERC20, ERC20Burnable, ERC20Pausable, Ownable {
+    constructor(address initialOwner, uint initialSupply) ERC20("FoolishToken", "FOOL") Ownable(initialOwner) {
         _mint(msg.sender, initialSupply * 10 ** decimals());
     }
     function pause() public onlyOwner {
