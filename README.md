@@ -4,7 +4,7 @@ This project contains the smart contract, tests, and deployment scripts for the 
 
 ## Features
 
-- ERC20 token with name `BonerToken` and symbol `BONER`
+- ERC20 token with name `FoolishToken` and symbol `FOOL`
 - Mint, burn, pause, and unpause functionality (owner only)
 - Hardhat Ignition module for deployment
 - Automated tests
@@ -43,7 +43,7 @@ npx hardhat test
 Update the network config in `hardhat.config.js` if needed.
 
 ```bash
-npx hardhat ignition deploy ./ignition/modules/BonerToken.js --network sepolia
+npx hardhat ignition deploy ./ignition/modules/FoolishToken.js --network sepolia
 ```
 
 The deployed contract address will be printed in the output.
@@ -64,16 +64,16 @@ cache/             # Build cache (auto-generated)
 npx hardhat help
 npx hardhat compile
 npx hardhat test
-npx hardhat ignition deploy ./ignition/modules/BonerToken.js --network sepolia
+npx hardhat ignition deploy ./ignition/modules/FoolishToken.js --network sepolia
 ```
 
 ## Frontend
 
-The frontend for this project is available at: [ERC20-token-client](https://github.com/brainDensed/ERC20-Token-Client)
+The frontend for this project is available at: [Foolish-token-client](https://github.com/brainDensed/Foolish-Token-Client)
 
 ## Frontend Integration
 
-- Copy the ABI from `artifacts/contracts/BonerToken.sol/BonerToken.json` to your frontend project.
+- Copy the ABI from `artifacts/contracts/FoolishToken.sol/FoolishToken.json` to your frontend project.
 - Use the deployed contract address in your frontend.
 
 
